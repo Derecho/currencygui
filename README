@@ -1,0 +1,22 @@
+currencygui is a currency converter in python using wxpython to convert between different currencies.
+The rates are fetched from www.xe.com .
+
+Warning:
+By using this software you agree that I cannot be held responsible for any terms of use you may violate of the xe website, you are fully responsible for this yourself.
+
+(Last time I checked the terms of use it stated that you can download and display their currency information for personal use, which is what this app does)
+
+Requirements:
+- Python 2.4 (May work on some older versions, but I only tested it on 2.4 and 2.5)
+- wxPython 2.8 (Same story as above)
+- A working internet connection
+
+Just run the app by typing 'python currencygui.pyw' or by double-clicking on it.
+You can modify the shown currencies in the config.txt .
+You are also able to modify the useragent that currencygui shows when connecting to xe .
+
+Todolist:
+- Some extra errorcatching
+- Maybe a configuration tool in menu for config.txt
+- Port to python 3.x
+- Do you have any ideas/suggestions? Feel free to contribute, or just tell me by mailing me on krisje8@gmail.com .
